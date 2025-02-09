@@ -59,7 +59,7 @@ section {
   padding: 24px;
 }
 .home {
-  background-image: url("travel.jpg");
+  background-image: url("images/travel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -72,7 +72,7 @@ section {
   color: white;
 }
 .about-us {
-  background-image: url("travel-2.jpg");
+  background-image: url("images/travel-2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -82,7 +82,7 @@ section {
   gap: 24px;
 }
 .contact {
-  background-image: url("travel-3.jpeg");
+  background-image: url("images/travel-3.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
