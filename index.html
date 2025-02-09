@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Travel Bloom - Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <span>Travel Bloom</span>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact Us</a>
+      </nav>
+      <div class="search-bar">
+        <input
+          type="text"
+          placeholder="Enter a destination or keyword"
+          class="keyword"
+        />
+        <button onclick="search()">Search</button>
+        <button onclick="clearSearch()">Clear</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="home">
+        <div style="position: sticky; top: 100px">
+          <h1 style="margin-top: 100px">What is Lorem Ipsum?</h1>
+          <p style="width: 500px">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. It has been the industry's standard dummy text ever since
+            the 1500s.
+          </p>
+        </div>
+        <div class="recommendation"></div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Travel Bloom</p>
+    </footer>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
